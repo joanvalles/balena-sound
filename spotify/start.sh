@@ -14,4 +14,4 @@ if [ ! -z "$SPOTIFY_LOGIN" ] && [ ! -z "$SPOTIFY_PASSWORD" ]; then
 fi
 
 # Start raspotify
-exec /usr/bin/librespot  --name "$BLUETOOTH_DEVICE_NAME" --backend alsa --bitrate 320 --cache /var/cache/raspotify --enable-volume-normalisation --linear-volume --initial-volume=$SYSTEM_OUTPUT_VOLUME $SPOTIFY_CREDENTIALS
+exec /usr/bin/librespot  --name "$BLUETOOTH_DEVICE_NAME" --backend alsa --bitrate 160 --cache /var/cache/raspotify --enable-volume-normalisation --linear-volume --initial-volume=$SYSTEM_OUTPUT_VOLUME $SPOTIFY_CREDENTIALS
