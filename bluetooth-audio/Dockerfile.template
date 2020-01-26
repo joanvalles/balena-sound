@@ -11,7 +11,8 @@ RUN install_packages \
   python-gobject \
   python-dbus \
   python-gpiozero \
-  mplayer
+  mplayer \
+  pulseaudio
 
 # Copy sounds
 COPY sounds /usr/src/sounds
